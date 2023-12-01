@@ -19,7 +19,7 @@ const NavBar = () => {
           <NavLink href="#" text="Enlace 3"/>
         </nav>
 
-        <CartWidget />
+        <CartWidget items={0}/>
       </div>
     </header>
   )
